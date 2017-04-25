@@ -105,22 +105,22 @@ while(1)
 		if (message.has_temperature)
 		{
 			//printf("Temperature: %f ", message.temperature);
-			cout << " tempr: " << (float)message.temperature;
+			cout << " temperature: " << (float)message.temperature;
 		}
 		if (message.has_humidity)
 		{		
 			//printf("Humidity: %f ", message.humidity);
-			cout << " humid: " << (float)message.humidity;
+			cout << " humidity: " << (float)message.humidity;
 		}
 		if (message.has_pressure)
 		{
 			//printf("Pressure: %f ", message.pressure);
-			cout << " press: " << (float)message.pressure;
+			cout << " pressure: " << (float)message.pressure;
 		}
 		if (message.has_altitude)
 		{		
 			//printf("Altitude: %f ", message.altitude);
-			cout << " altit: " << (float)message.altitude;
+			cout << " altitude: " << (float)message.altitude;
 		}
 		//printf('\n');
 		cout << endl;
